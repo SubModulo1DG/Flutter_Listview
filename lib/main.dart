@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: "/listview1",
+      initialRoute: "/listview2",
       routes: {
         "/listview1": (BuildContext context) => Listview1(),
         "/listview2": (BuildContext context) => Listview2(),
